@@ -14,7 +14,7 @@ function J() {
   if (hehe > 0.5) {
     alert("Coach ran away");
   } else if (hehe < 0.5) {
-    alert("404 coach not foundd");
+    alert("404 coach not found");
   }
 }
 function ronny() {

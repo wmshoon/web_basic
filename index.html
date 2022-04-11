@@ -24,29 +24,33 @@
                 margin: 0;
                 padding: 10px;
             }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                border: 5px solid pink;
+            }
         </style>
     </head>
     <body>
-        <h1 id = "htmml">HTML, JS, CSS</h1>
-        <ul>
-            
-            <li> <a href="html.html"    class = "links" id = "html">HTML</a></li>
-            <li> <a href="js.html"  class = "links">JavaScript</a></li>
-            <li> <a href="css.html" class = "links">CSS</a></li>
-            <li> <a href="index.html"   class = "links">reload this site</a></li>
-        </ul>
-        <h6 id = "coach">코치님 3년 동안 잘 부탁드립니다</h6>
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kg-HHXuOBlw?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=Kg-HHXuOBlw" frameborder="0"></iframe>
-
-        <br>
-        <br>Coolist site <a href="https://www.google.com" target="_blank">google</a>
-        <br>
-        <br>Greentrash site <a href="https://www.naver.com" target="_blank">naver</a>
-        <br>
-        <br>디랩의 탄생 비화 <a href="https://www.bloter.net/newsView/blt201407090001" target="_blank">에 관련된 이야기</a>
-        
-        <script src="app.js"></script>
-        
+        <div id = "gird">
+            <div>
+                <h1 id = "htmml">HTML, JS, CSS</h1>
+                <ul>
+                    <li> <a href="html.html"    class = "links" id = "html">HTML</a></li>
+                    <li> <a href="js.html"  class = "links">JavaScript</a></li>
+                    <li> <a href="css.html" class = "links">CSS</a></li>
+                    <li> <a href="index.html"   class = "links">reload this site</a></li>
+                </ul>
+            </div>
+            <div>
+                <br>
+                <br>Coolist site <a href="https://www.google.com" target="_blank">google</a>
+                <br>
+                <br>Greentrash site <a href="https://www.naver.com" target="_blank">naver</a>
+                <br>
+                <br>디랩의 탄생 비화 <a href="https://www.bloter.net/newsView/blt201407090001" target="_blank">에 관련된 이야기</a>
+            </div>
+            <script src="app.js"></script>
+        </div>
     </body>
 </html>
